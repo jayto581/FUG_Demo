@@ -1,10 +1,10 @@
 /**
-* auxilary information - bottom footer section
+* auxiliary information - bottom footer section
 */
 .c-aux-info {
     display: grid;
     width: 100%;
-    grid-template-columns: 35% 30% 35%;
+    grid-template-columns: 31% 34% 35%;
     grid-template-areas:
         "footer-info-1 project-by stats"
         "footer-info-1 follow-us stats"
@@ -65,7 +65,7 @@
 .c-aux-info table [rowspan],
 table [rowspan]~th,
 table [rowspan]~td {
-    /*     border-top: 5px solid rgb(116, 27, 218); */
+    /* border-top: 5px solid rgb(116, 27, 218); */
     border: 0;
     border-image-width: 0;
 }
@@ -110,7 +110,7 @@ ul.c-aux-info--mod-ul {
     margin-top: 1rem;
     margin-right: auto;
     margin-bottom: 1rem;
-    margin-left: auto;
+    margin-left: 1rem;
     width: auto;
 }
 
@@ -120,7 +120,7 @@ ul.c-aux-info--mod-ul {
 
 .c-aux-info__table-1--title-1 {
     width: auto;
-    padding: 0 .5rem 0 .25rem;
+    padding: 0 .5rem .15rem .25rem;
     vertical-align: top;
     text-align: left;
 }
@@ -135,7 +135,7 @@ ul.c-aux-info--mod-ul {
 .c-aux-info__sublinks-2--mod-2 {
     grid-area: project-by;
     text-align: center;
-    /*background: #9d0; */
+    /* background: #9d0;  */
 }
 
 
@@ -149,7 +149,7 @@ ul.c-aux-info--mod-ul {
     grid-area: follow-us;
     text-align: center;
     list-style-type: none;
-    /*background: #90d; */
+    /* background: #90d;  */
 }
 
 
@@ -178,7 +178,7 @@ ul.c-aux-info--mod-ul {
 /* FUG statistics table */
 .c-aux-info__table-2 {
     margin-top: 1rem;
-    margin-right: auto;
+    margin-right: 1rem;
     margin-bottom: 1rem;
     margin-left: auto;
     width: auto;
@@ -198,13 +198,13 @@ ul.c-aux-info--mod-ul {
 .c-aux-info__table-2--value-1 {
     width: auto;
     text-align: left;
-    padding: 0 .25rem 0 .5rem;
+    padding: 0 .5rem .15rem .25rem;
 }
 
 .c-aux-info__table-2--value-2 {
     width: 3rem;
     text-align: right;
-    padding: 0 .25rem 0 .5rem;
+    padding: 0 .5rem .15rem .25rem;
 }
 
 .c-aux-info__table-2--label-2 {
@@ -227,6 +227,24 @@ ul.c-aux-info--mod-ul {
             "footer-info-1 follow-us"
             "stats copyright";
     }
+
+    .c-aux-info__table-1 {
+        margin-top: 1rem;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        width: auto;
+    }
+
+    /* FUG statistics table */
+    .c-aux-info__table-2 {
+        margin-top: 1rem;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        width: auto;
+    }
+
 }
 
 /* small display only */
@@ -241,5 +259,22 @@ ul.c-aux-info--mod-ul {
             "stats"
             "copyright"
             "project-by";
+    }
+
+    .c-aux-info__table-1 {
+        margin-top: 1rem;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        width: auto;
+    }
+
+    /* FUG statistics table */
+    .c-aux-info__table-2 {
+        margin-top: 1rem;
+        margin-right: auto;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        width: auto;
     }
 }
