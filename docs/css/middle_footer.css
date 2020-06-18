@@ -1,0 +1,43 @@
+/**
+ * top and middle footer section overrides
+ */
+
+/* reduce paddding in database caution (top) section */
+.c-aux3-info {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+/* remove padding in middle footer section*/
+.c-aux2-info {
+    padding: 0;
+}
+
+/* reduce margin around h2 title */
+.c-aux2-info h2 {
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+}
+
+/* remove margin acround icon list */
+.c-aux2-info__list {
+    margin: 0;
+}
+
+/* reduce margin on icon element */
+.c-aux2-info__list li {
+    margin-bottom: .25rem;
+}
+
+/* reduce spacing of outline */
+.c-aux2-info li a:hover {
+    outline-offset: .25rem;
+}
+
+/* pending code to scale svg icons */
+/* .c-aux2-info a {
+    height: 3.7rem;
+    background-size: contain;
+    background-color: #fbdb65;
+    margin-left: 3rem;
+} */

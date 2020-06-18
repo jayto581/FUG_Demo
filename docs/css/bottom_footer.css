@@ -110,7 +110,7 @@ ul.c-aux-info--mod-ul {
     margin-top: 1rem;
     margin-right: auto;
     margin-bottom: 1rem;
-    margin-left: 1rem;
+    margin-left: 1.75rem;
     width: auto;
 }
 
@@ -120,7 +120,7 @@ ul.c-aux-info--mod-ul {
 
 .c-aux-info__table-1--title-1 {
     width: auto;
-    padding: 0 .5rem .15rem .25rem;
+    padding: 0 .5rem .15rem .5rem;
     vertical-align: top;
     text-align: left;
 }
@@ -178,7 +178,7 @@ ul.c-aux-info--mod-ul {
 /* FUG statistics table */
 .c-aux-info__table-2 {
     margin-top: 1rem;
-    margin-right: 1rem;
+    margin-right: 1.75rem;
     margin-bottom: 1rem;
     margin-left: auto;
     width: auto;
@@ -190,7 +190,7 @@ ul.c-aux-info--mod-ul {
 
 .c-aux-info__table-2--title-1 {
     width: auto;
-    padding: 0 .5rem 0 .25rem;
+    padding: 0 .5rem 0 .5rem;
     vertical-align: top;
     text-align: left;
 }
@@ -232,7 +232,7 @@ ul.c-aux-info--mod-ul {
         margin-top: 1rem;
         margin-right: auto;
         margin-bottom: 1rem;
-        margin-left: 1rem;
+        margin-left: 1.75rem;
         width: auto;
     }
 
@@ -241,7 +241,7 @@ ul.c-aux-info--mod-ul {
         margin-top: 1rem;
         margin-right: auto;
         margin-bottom: 1rem;
-        margin-left: 1rem;
+        margin-left: 1.75rem;
         width: auto;
     }
 
