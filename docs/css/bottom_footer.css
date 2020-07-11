@@ -2,14 +2,6 @@
 * auxiliary information - bottom footer section
 */
 .c-aux-info {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 31% 34% 35%;
-    grid-template-areas:
-        "footer-info-1 project-by stats"
-        "footer-info-1 follow-us stats"
-        "copyright copyright copyright";
-
     /* 18px = 1.125rem  */
     /* 16px = 1rem or 1em*/
     /* 13px = 0.8125rem */
@@ -23,6 +15,24 @@
     color: #dedede;
     font-weight: normal;
 }
+
+/**
+* auxiliary information wrap
+*/
+.c-aux-info__wrap {
+    display: grid;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 31% 34% 35%;
+    grid-template-areas:
+        "footer-info-1 project-by stats"
+        "footer-info-1 follow-us stats"
+        "copyright copyright copyright"
+        "pg-ad pg-ad pg-ad";
+}
+
+
 
 
 /**
@@ -164,6 +174,11 @@ ul.c-aux-info--mod-ul {
     /* background: #09d; */
 }
 
+/* ad space */
+.c-aux-info__ads-space {
+    grid-area: pg-ad;
+    height: 5.625rem;
+}
 
 /* FUG statistics */
 .c-aux-info__stats {
@@ -218,14 +233,15 @@ ul.c-aux-info--mod-ul {
 
 /* medium display only */
 @media (min-width: 481px) and (max-width:768px) {
-    .c-aux-info {
+    .c-aux-info__wrap {
         display: grid;
         width: 100%;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
             "footer-info-1 project-by"
             "footer-info-1 follow-us"
-            "stats copyright";
+            "stats copyright"
+            "pg-ad pg-ad";
     }
 
     .c-aux-info__table-1 {
@@ -249,7 +265,7 @@ ul.c-aux-info--mod-ul {
 
 /* small display only */
 @media (max-width:480px) {
-    .c-aux-info {
+    .c-aux-info__wrap {
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
@@ -258,7 +274,8 @@ ul.c-aux-info--mod-ul {
             "follow-us"
             "stats"
             "copyright"
-            "project-by";
+            "project-by"
+            "pg-ad";
     }
 
     .c-aux-info__table-1 {
