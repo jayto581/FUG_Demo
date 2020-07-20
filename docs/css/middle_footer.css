@@ -30,7 +30,10 @@
 }
 
 /* reduce spacing of outline */
-.c-aux2-info li a:hover {
+.c-aux2-info li a:hover,
+.c-aux2-info li a:active {
+    background-color: transparent;
+    outline: 2px dashed #007fad;
     outline-offset: .25rem;
 }
 
