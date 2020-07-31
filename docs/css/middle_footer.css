@@ -1,6 +1,4 @@
-/**
- * top and middle footer section overrides
- */
+* * top and middle footer section overrides */
 
 /* reduce paddling in database caution (top) section */
 .c-aux3-info {
@@ -29,10 +27,20 @@
     margin-bottom: .25rem;
 }
 
+/* hack for Safari to enable  focus/hover outlines */
+/* need to override text-decoration setting */
+/* Firefox, Chrome, Edge and IE  are not immpacted by "none" setting*/
+/*     text-decoration: none     (see base/_type.scss)   */
+.c-aux2-info__list li a {
+    text-decoration: underline;
+}
+
 /* reduce spacing of outline */
-.c-aux2-info li a:hover {
+.c-aux2-info__list li a:focus,
+.c-aux2-info__list li a:hover {
     outline-offset: .25rem;
 }
+
 
 /* pending code to scale svg icons */
 /* .c-aux2-info a {
@@ -40,4 +48,4 @@
     background-size: contain;
     background-color: #fbdb65;
     margin-left: 3rem;
-} */
+}

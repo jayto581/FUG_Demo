@@ -12,7 +12,7 @@
     border: 0;
 
     background: #333333;
-    color: #ffffff;
+    color: #dedede;
     font-weight: normal;
 }
 
@@ -37,13 +37,13 @@
 
 /**
 * override setting from FUG _type.scss line 26
-* island--dark selector
+* a
 */
-/* .c-aux-info a {
-    color: #ffffff;
+.c-aux-info a {
+    color: #dedede;
     text-decoration: underline;
     font-weight: normal;
-} */
+}
 
 /* .c-aux-info a:link {
 }
