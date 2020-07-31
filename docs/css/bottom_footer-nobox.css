@@ -138,6 +138,7 @@ ul.c-aux-info--mod-ul {
 
 .c-aux-info__table-1--mod-1 {
     border: .125rem solid #dedede;
+    border-style: hidden;
 }
 
 .c-aux-info__table-1--title-1 {
@@ -225,6 +226,7 @@ ul.c-aux-info--mod-ul {
 
 .c-aux-info__table-2--mod-3 {
     border: .125rem solid #dedede;
+    border-style: hidden;
 }
 
 .c-aux-info__table-2--title-1 {
