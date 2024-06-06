@@ -78,8 +78,8 @@
     width: auto;
     padding: 0 1.625rem 0.15rem;
     list-style-type: none; }
-  .c-subfooter-1__nav-item:nth-child(3) {
-    padding-bottom: 1.425rem; }
+  /* .c-subfooter-1__nav-item:nth-child(3) {
+    padding-bottom: 1.425rem; } */
 
 /* fug project section */
 .c-subfooter-1__fug {
@@ -87,7 +87,8 @@
   padding: 0 0.5rem;
   text-align: center; }
   .c-subfooter-1__fug-heading {
-    margin: 1rem 0 0.25rem; }
+    margin: 1rem 0 0.25rem;
+    color: #dedede; }
   .c-subfooter-1__fug-nav.c-subfooter-1__fug-nav.c-subfooter-1__fug-nav {
     margin-top: 0; }
 
@@ -98,7 +99,8 @@
   list-style-type: none;
   text-align: center; }
   .c-subfooter-1__social-nav-heading {
-    margin: 0.25rem; }
+    margin: 0.25rem; 
+    color: #dedede;  }
   .c-subfooter-1__social-nav-list {
     margin: 0;
     list-style-type: none; }
